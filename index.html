@@ -18,15 +18,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobremi">Sobre Mi</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#curriculum">Curriculum</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -40,10 +40,10 @@
             <h2>Desarrollador Junior - Java</h2>
 
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/juan-carlos-villar-quintero-713738224/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/JuanC0097" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/thejoker0097" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="mailto:juanvillarq0097@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
 
@@ -53,7 +53,7 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre mi</h2>
-            <p><span>Un Gusto,Soy Juan Carlos</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti quas magni, magnam quis numquam possimus repellendus doloribus nemo impedit deserunt sed cupiditate, ducimus quibusdam repellat praesentium voluptatibus quae consectetur!</p>
+            <p><span>Un Gusto,Soy Juan Carlos</span> Soy un desarrollador backend junior con enfoque en el lenguaje de programación java EE desde la versión 8, Me considero una persona responsable, honesta, puntual y entregada a mi desarrollo personal y profesional. Me encuentro cursando el 6 semestre Ingeniería de Sistemas en la UNAD.</p>
 
             <div class="fila">
                 <!--Datos personales-->
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+                <a href="./assets/Cv_Juan-Villar.pdf" download="Cv_Juan-Villar" target="_blank">Descargar CV <i class="fa-solid fa-download"></i></a>
                 <span class="overlay"></span>
             </button>
         </div>
@@ -265,7 +265,7 @@
                         <h4>Desarrollo de software con Java</h4>
                         <span class="casa">Universidad Sergio Arboleda-Mision TIC</span>
                         <span class="fecha">2020-2021</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>Finalicé el programa Colombia 4.0 con el apoyo de la Universidad Sergio Arboleda con una intensidad de 6 meses, en los cuales aprendí los fundamentos del desarrollo con lenguaje Python y java. También aprendí a desarrollar mi pensamiento lógico y matemático, el uso de diferentes herramientas de comunicación y desarrollo.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -274,7 +274,7 @@
                         <h4>Principiante en Programacíon</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>A final del año pasado inicie mi educación con Alura Latam por medio del programa Oracle Next Education. En este primer trimestre aprendí sobre estructuras de control, tipo de datos, manejo de datos, manejo del IDE Eclipse, y otras herramientas como Discord, Trello y Git Hub. También desarrolle un encriptado de texto con las tecnologías de HTML5-responsive.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -283,7 +283,7 @@
                         <h4>Desarrollo Personal</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>En este tiempo obtuve diversas habilidades blandas como la importancia de la productividad y las diferentes estrategias para llevar a cabo mis actividades, el manejo y la estructura de una empresa ágil y la importancia de la preparación autodidacta.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -292,7 +292,7 @@
                         <h4>Java Orientado a Objetos</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>En el segundo trimestre aprendí los fundamentos de java, sobre la programación orientada a objetos.  Herencia, polimorfismo y abstracción, super clases, clases abstractas y encapsulamiento.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -301,7 +301,7 @@
                         <h4>Java Web</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>Aprendí sobre como se utiliza java para aplicaciones web en tiempo real, el manejo de herramientas como Git y GitHub, Tom cat y fundamentos de la integración de base de datos</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -310,7 +310,7 @@
                         <h4>Integracion de Aplicaciones con base de datos Mysql-H2</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>Manejo de Base de datos para la persistencia de sus datos, creación, modificación y eliminación de tablas a necesidad de la aplicación. Por medio del lenguaje SQL en MySql</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -319,16 +319,16 @@
                         <h4>Business Agility</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>Aprendí el manejo de las empresas desde su modelo clásico a su modelo ágil, su estructura, su metodología de trabajo y los roles los cuales se deben cumplir dependiendo del puesto.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Java y Spring Boot</h4>
+                        <h4>Java JPA-HIBERNATE</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>En el último trimestre aprendí el manejo y la persistencia de datos implementando JPA-Hibérnate en el sistema. También la integración de base de datos H2 y Mysql.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -337,7 +337,7 @@
                         <h4>Desarrollo Backend-Java</h4>
                         <span class="casa">Oracle Next Education</span>
                         <span class="fecha">2022-2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>Al final de mi preparación en el programa aprendí a crear sistemas encapsulados de fácil mantenimiento, con la capacidad de modificaciones en el futuro y la integración de distintas bibliotecas, almacenamiento de datos en base de datos relacionales y control de versiona miento del sistema.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -351,7 +351,7 @@
                         <h4>Auxiliar de Enfermeria</h4>
                         <span class="casa">Hospital San Ignacio</span>
                         <span class="fecha">2017-2021</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde ipsum quaerat doloremque veritatis ullam porro autem laborum consequatur, labore voluptate, deleniti vitae dolorum, incidunt reiciendis nobis tempore. Obcaecati, doloremque.</p>
+                        <p>Me desempeñé como Auxiliar de enfermería por 4 años en el Hospital San Ignacio donde aprendí variedad de habilidades blandas, entre ellas comunicación afectiva, manejo de situaciones delicadas. Entre mis actividades estaba El cuidado integral del paciente, manejo de software para la toma de diversos exámenes y actualización de historia clínica.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -499,5 +499,6 @@
             <a href="#"><i class="fa-solid fa-envelope"></i></a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
